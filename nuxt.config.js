@@ -17,10 +17,15 @@ export default {
       {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.7.2/css/all.css",
-      },{
+      },
+      {
         rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css",
       },
+      {
+        rel: "stylesheet",
+        href: "assets/css/login.css"
+      }
     ],
     script: [
       {
@@ -50,6 +55,18 @@ export default {
       {
         src: "https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js",
       },
+      {
+        src: "https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js",
+      },
+      {
+        src: "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js",
+      },
+      {
+        src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js",
+      },
+      {
+        src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js",
+      },
       { src: "assets/js/stisla.js" },
       { src: "assets/js/scripts.js" },
     ],
@@ -57,7 +74,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~/assets/css/style.css", "~/assets/css/components.css", "~/assets/css/custom.css"
+  
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -2,7 +2,7 @@
      <div id="app">
     <div class="main-wrapper">
         <PartialsNavbar />
-        <PartialsSidebar />
+        <PartialsSidebar2 />
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
