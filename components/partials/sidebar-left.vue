@@ -2,23 +2,17 @@
   <div class="navigation">
     <div class="menuToggle" @click="toggle()"></div>
     <ul @click="list()">
-      <li class="list" style="--clr: #f44336">
-        <a href="/">
-          <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-          <span class="text">Home</span>
-        </a>
-      </li>
       <li class="list active" style="--clr: #ffa117">
-        <a href="/class">
+        <a href="/">
           <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
-          <span class="text">Class</span>
+          <span class="text">Classes</span>
         </a>
       </li>
       <li class="list" style="--clr: #0fc70f">
-        <a href="#">
+        <a href="/calendar">
           <span class="icon"
             ><ion-icon name="qr-code-outline"></ion-icon></span>
-          <span class="text">Dashboard</span>
+          <span class="text">Calendar</span>
         </a>
       </li>
       <!-- <li class="list" style="--clr: #2196f3">

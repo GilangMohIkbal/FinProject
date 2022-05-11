@@ -8,11 +8,11 @@
           <div class="formbg">
             <div class="formbg-inner ">
                 <div class="box-root  flex-flex flex-justifyContent--center">
-          <h1>Join Kelas</h1>
+          <h1>Join Class</h1>
         </div>
               <form id="stripe-login">
                 <div class="field padding-bottom--24">
-                  <label for="kelas">Join Kelas</label>
+                  <label for="kelas">Join Class</label>
                   <input type="number" name="kelas">
                 </div>
                 

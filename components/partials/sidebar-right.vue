@@ -50,7 +50,6 @@
                     </div>
                   </a>
                 </li>
-
                 <li class="lost" style="--clr: #ffa117">
                   <a href="#">
                     <span class="icon">
@@ -93,7 +92,7 @@
                   data-toggle="modal"
                   data-target="#tambahKelas"
                 >
-                  Invite Student
+                  + Invite Student
                 </button>
               </div>
              
@@ -120,7 +119,7 @@
                   data-toggle="modal"
                   data-target="#tambahTeacher"
                 >
-                  Invite Teacher
+                  + Invite Teacher
                 </button>
               </div>
             </div>

@@ -11,9 +11,6 @@
             @submit.prevent="login"
           >
             <h2 class="title">Sign In</h2>
-            <p style="color: rgb(164, 165, 167)">
-              Silahkan Login untuk melihat hasil Final Project
-            </p>
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="email" placeholder="Your Email" v-model="email" />
@@ -22,7 +19,7 @@
               <i class="fas fa-lock"></i>
               <input
                 type="password"
-                placeholder="password"
+                placeholder="Password"
                 v-model="password"
               />
             </div>
@@ -59,12 +56,12 @@
 
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="text" placeholder="email" />
+              <input type="text" placeholder="Email" />
             </div>
 
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="password" />
+              <input type="password" placeholder="Password" />
             </div>
             <input type="submit" value="sign up" class="btn solid" />
 
@@ -93,8 +90,8 @@
         <!-- pamnl 1 -->
         <div class="panel left-panel">
           <div class="content">
-            <h3>Buat Akun disini</h3>
-            <p>Untuk Sementara pembuatan Akun hanya dapat melalui admin</p>
+            <h3>Create Your Account Here</h3>
+            <p>Yes, I wanna become more intelligent</p>
             <button class="btn transparent" id="sign-up-btn" @click="arrow()">
               Sign up
             </button>
@@ -108,10 +105,7 @@
           <div class="content">
             <h3>One of us ?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
-              ipsam obcaecati ad vitae, deserunt ducimus ea at. Praesentium
-              omnis voluptatum, deleniti, quibusdam esse atque mollitia sequi
-              possimus quas exercitationem veniam.
+              Time is ticking and we are counting down the time to start learning
             </p>
             <button class="btn transparent" id="sign-in-btn" @click="remove()">
               Sign in
@@ -126,7 +120,7 @@
 </template>
 <script>
 export default {
-  layout: "clear",
+  layout: "login",
   data() {
     return {
       email: "",
@@ -155,14 +149,14 @@ export default {
         // alert("Login success");
         this.$swal({
           title: "Success",
-          text: `Anda Berhasil Login`,
+          text: `Welcome to Fullstack Academy!`,
           icon: "success",
         });
         this.$router.push("/");
       } catch (error) {
         this.$swal({
-          title: "login failed",
-          text: `Email atau Password Salah`,
+          title: "Login Failed",
+          text: `Email atau Password Incorrect`,
           icon: "error",
         });
       }

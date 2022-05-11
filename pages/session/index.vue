@@ -3,28 +3,19 @@
                 <div class="header-materi">
                     <div class="judul-materi">
                         <div class="icon-materi"></div>
-                        <div class="text-icon"><h3>Javascript Lanjutan</h3>
-                        <p>Start Date : 1 April 2020</p></div>
-                    </div>
-                    <div class="kategori-materi">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false" style="border-radius:10px;">
-                              Materi
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="/materi/tugas">Tugas</a>
-                              
-                            </div>
-                          </div>
+                        <div class="text-icon"><h3>Front End</h3>
+                        <p>Start Date : 1 April 2020</p>
+                        <p>End Date : 1 April 2020</p>
+                        </div>
                     </div>
                 </div>
                 <!-- isi content -->
-                   <PartialsContentMateri />
+                   <PartialsContentSession />
                 
                 <!-- isi content -->
                  <div
                 class="modal fade"
-                id="tambahKelas"
+                id="tambahStudent"
                 tabindex="1"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
@@ -48,14 +39,13 @@
                     <AddTeacher />
                   </div>
                 </div>
-              </div>
-
             </div>
+          </div>
 </template>
 
 <script>
 export default {
-    layout:'materipage'
+    layout:'sessionpage'
 }
 </script>
 

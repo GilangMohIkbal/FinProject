@@ -41,7 +41,7 @@
               <p class="inside-page__text">
                 JavaScript digunakan untuk membuat halaman web menjadi interaktif
               </p>
-              <a href="materi" class="inside-page__btn ">Masuk Kelas</a>
+              <a href="session" class="inside-page__btn ">Masuk Kelas</a>
             </div>
           </div>
         </div>

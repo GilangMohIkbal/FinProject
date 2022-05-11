@@ -2,7 +2,7 @@
     <div class="container-full">
     <div class="nav-top">
         <!-- Navbar -->
-        <PartialsNav />
+        <PartialsNavbar />
         <!-- Akhir Navbar -->
     </div>
 

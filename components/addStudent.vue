@@ -1,7 +1,6 @@
 <template>
 <body>
       <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
-        
         <div class="formbg-outer">
           <div class="formbg">
             <div class="formbg-inner ">
@@ -10,13 +9,10 @@
         </div>
               <form id="stripe-login">
                 <div class="field padding-bottom--24">
-                  <label for="kelas">gunakan Student id </label>
-                  <input type="number" name="kelas">
+                  <input type="number" name="kelas" placeholder="Type email here">
                 </div>
-                
-                
                 <div class="field padding-bottom--24">
-                  <input type="submit" name="submit" value="Undang ke kelas">
+                  <input type="submit" name="submit" value="Invite">
                 </div>
               </form>
             </div>

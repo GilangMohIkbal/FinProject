@@ -2,39 +2,69 @@
   <body>
     <div
       class="box-root padding-top--24 flex-flex flex-direction--column"
-      style="flex-grow: 1; z-index: 9">
-      <div class="card-body">
-        <div class="formbg-outer">
-          <div class="formbg">
-            <div class="formbg-inner">
-              <div class="box-root flex-flex flex-justifyContent--center">
-                <h1>Invite Teacher</h1>
-              </div>
-              <form id="stripe-login">
-                <div class="field padding-bottom--24">
-                  <input
-                    type="email"
-                    name="kelas"
-                    placeholder="Type email here"
-                  />
-                </div>
-
-                <div class="field padding-bottom--24">
-                  <input type="submit" name="submit" value="Invite" />
-                </div>
-              </form>
+      style="flex-grow: 1; z-index: 9"
+    >
+      <!-- <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="http://blog.stackfindover.com/" rel="dofollow">Stackfindover</a></h1>
+        </div> -->
+      <div class="formbg-outer">
+        <div class="formbg">
+          <div class="formbg-inner">
+            <div class="box-root flex-flex flex-justifyContent--center">
+              <h1>Add Class</h1>
             </div>
+            <form id="stripe-login">
+              <div class="field padding-bottom--48">
+                <label for="kelas">Class Name</label>
+                <input type="text" name="kelas" />
+              </div>
+              <div class="field padding-bottom--48">
+                <div class="grid--50-50">
+                  <label for="text">Description</label>
+                </div>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="field padding-bottom--48">
+                <label for="exampleFormControlFile1">Image</label>
+                <input
+                  type="file"
+                  class="form-control-file"
+                  id="exampleFormControlFile1"
+                />
+              </div>
+              <div class="field padding-bottom--48">
+                <label for="exampleFormControlFile1">Start Date</label>
+                <input
+                  type="date"
+                />
+              </div>
+              <div class="field padding-bottom--48">
+                <label for="exampleFormControlFile1">End Date</label>
+                <input
+                  type="date"
+                />
+              </div>
+              <div class="field padding-bottom--48">
+                <input type="submit" name="submit" value="Add Class" />
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </body>
 </template>
+
+
 <style scoped>
 * {
   padding: 0;
   margin: 0;
-  color: #1a1f36;
+  color: #09d496;
   box-sizing: border-box;
   word-wrap: break-word;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -46,7 +76,7 @@ body {
 }
 h1 {
   letter-spacing: -1px;
-  color: #5469d4;
+  color: #09d496;
   padding: 10px 0px;
 }
 /* a {
@@ -191,7 +221,7 @@ label {
 }
 
 input[type="submit"] {
-  background-color: rgb(84, 105, 212);
+  background-color: #09d496;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px,
     rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
